@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    margin:0px 20px;
+    background-color: #006BAC;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    width: 60px;
+    height: auto;
+    margin-left: 120px;
+    margin-top:30px;
+}
+
+header .nav a{
+    text-decoration: none;
+    color:white;
+    padding:0px 10px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+header .nav{
+    margin-right: 50px;
+}
+header .nav a:hover{
+    color:rgb(2, 2, 56);
+}
+
+.hero-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px 0px;
+}
+
+.hero-content{
+    margin-left: 100px;
+}
+
+.hero-content h2{
+    font-size: 60px;
+    font-family: sans-serif;
+    color:white;
+    font-weight:bolder;
+    text-transform: uppercase;
+}
+
+.hero-content h1{
+    font-size: 100px;
+    font-family: sans-serif;
+    color:white;
+    font-weight:bolder;
+    text-transform: uppercase;
+}
+
+.hero-content p{
+    color:white;
+    font-family: sans-serif;
+    font-weight:normal;
+    line-height: 1.3em;
+    font-size: 14px;
+}
+
+.hero-content button{
+    padding:10px 20px;
+    border-radius:50px;
+    border:0;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;  
+    font-weight:bold;
+    font-size:12px;
+    color:rgb(2, 2, 56);
+    margin:20px 0;
+}
+
+.hero-content button:hover{
+    background-color:rgb(2, 2, 56);
+    color:white;
+}
+
+.hero-image img{
+    width:240px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.hero-image #grey,#black{
+    display:none;
+}
+
+.hero-icon{
+    display: flex;
+    flex-direction:column;
+    margin-right:50px;
+}
+
+.hero-icon svg{
+    padding: 10px 0px;
+    stroke:white;
+    width:25px;
+    height:25px;
+}
+
+.hero-icon svg:hover{
+    stroke:rgb(2, 2, 56);
+}
+
+.footer-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0;
+}
+
+.footer-images img{
+    width:40px;
+    height:auto;
+    padding:0 20px;
+}
+
+.footer-images img:hover{
+    position: relative;
+    bottom:50px;
+}
+
+.blackNav a:hover{
+    color:red !important;
+}
